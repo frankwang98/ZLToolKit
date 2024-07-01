@@ -13,10 +13,15 @@
 using namespace std;
 using namespace toolkit;
 
+/**
+ * 测试creator
+*/
+
 //测试onCreate和onDestory同时存在
 class TestA {
 public:
     TestA() {
+        // 日志宏
         TraceL;
     }
 
@@ -25,6 +30,7 @@ public:
     }
 
     void onCreate() {
+        // 打印类名+函数名
         TraceL << demangle(typeid(*this).name()) << "::" << __FUNCTION__;
     }
 

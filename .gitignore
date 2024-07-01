@@ -31,3 +31,6 @@
 *.DS_Store
 /cmake-build-debug/
 /.idea/
+
+build
+linux_build

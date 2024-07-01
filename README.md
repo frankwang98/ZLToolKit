@@ -4,6 +4,8 @@
 ![](https://github.com/ZLMediaKit/ZLToolKit/actions/workflows/macos.yml/badge.svg)
 ![](https://github.com/ZLMediaKit/ZLToolKit/actions/workflows/windows.yml/badge.svg)
 
+这个项目ZLToolKit从2016.8.13就开始了，值得去学习；在此基础上可再去学习流媒体服务器ZLMediaKit。
+
 ## 项目特点
 - 基于C++11开发，避免使用裸指针，代码稳定可靠；同时跨平台移植简单方便，代码清晰简洁。
 - 使用epoll+线程池+异步网络IO模式开发，并发性能优越。

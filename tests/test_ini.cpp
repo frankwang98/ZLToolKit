@@ -18,6 +18,7 @@ int main() {
     //初始化日志系统
     Logger::Instance().add(std::make_shared<ConsoleChannel> ());
     Logger::Instance().setWriter(std::make_shared<AsyncLogWriter>());
+    
     mINI ini;
     ini[".dot"] = "dot-value";
     ini["no-dot"] = "no-dot-value";
